@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Food Store | Ecommerce Website Design</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<img src="./images/logo.jpg" width="125px">
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a class="current" href="index.html">Home</a></li>
+						<li><a href="product.html">Products</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="account.html">Account</a></li>
+					</ul>
+				</nav>
+				<img src="./images/scart.jpg" width="30px" height="30px">
+				<img src="./images/menu.jpg" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<h1>We Provide Healthy & Fresh<br> Food To Our Customers</h1>
+					<p>Your diet is a bank account.<br> Good food choices are good investments.</p>
+					<a href="" class="btn">Explore Now &#8594;</a>
+				</div>
+				<div class="col-2">
+					<img src="./images/health.jpg">
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>	
+
+<div class="categories">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-3">
+				<img src="./images/i-1.jpg" width="200px" height="200px">
+			</div>
+			<div class="col-3">
+				<img src="./images/i-2.jpg" width="200px" height="200px">
+			</div>
+			<div class="col-3">
+				<img src="./images/i-3.jpg" width="200px" height="200px">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="small-container">
+	<h2 class="title">Featured Products</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="./images/bread.jpg" width="200px" height="200px">
+			<h4>Bakery Bread Items</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>100Rs-500Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/fv.png" width="200px" height="200px">
+			<h4>Fruits and Vegetables</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>50Rs-250Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/dairy.jpg" width="200px" height="200px">
+			<h4>Dairy Products</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>50Rs-750Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/pulses.jpg" width="200px" height="200px">
+			<h4>Pulses</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>100Rs-400Rs</p>
+		</div>
+	</div>
+	<h2 class="title">Latest Food Products</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="./images/p1.jpg" width="200px" height="200px">
+			<h4>American Chocolates</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>200Rs-2000Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/p2.jpg" width="200px" height="200px">
+			<h4>Brown Sugar</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>50Rs-250Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/p3.jpg" width="200px" height="200px">
+			<h4>Green Tea Packets</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>50Rs-150Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/gg.jpg" width="200px" height="200px">
+			<h4>Dozen of eggs</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>100Rs-400Rs</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<img src="./images/p5.jpg" width="200px" height="200px">
+			<h4>Cup Noodles</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>100Rs-200Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/p6.png" width="200px" height="200px">
+			<h4>Protein Shake</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>150Rs-550Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/p7.jpg" width="200px" height="200px">
+			<h4>Cornitos</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>50Rs-150Rs</p>
+		</div>
+		<div class="col-4">
+			<img src="./images/p8.jpg" width="200px" height="200px">
+			<h4>Pasta</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>75Rs-200Rs</p>
+		</div>
+	</div>
+</div>
+
+<div class="offer">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-2">
+				<img src="./images/exclusive.jpg" class="offer-img">
+			</div>
+			<div class="col-2">
+				<p>Exclusively Available On Our Webste</p>
+				<h1>50% Discount & Free Home Delivery On All Items</h1>
+				<small>On the occasion of festival we give special discount
+				to our all loving customers.</small><br>
+				<a href="" class="btn">Buy Now &#8594;</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="testimonial">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p> Online shopping is a very convenient shopping method. The convenience mainly includes the ease of locating a certain product, total time spent shopping and reduction of the overall shopping effort.</p>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<img src="./images/user.jpg" width="200px" height="200px">
+				<h3>Owner Of This Company<br> Mrs. Rajesh Dhingra</h3>
+			</div>
+			<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p> Online shopping is a very convenient shopping method. The convenience mainly includes the ease of locating a certain product, total time spent shopping and reduction of the overall shopping effort.</p>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<img src="./images/user2.jpg" width="200px" height="200px">
+				<h3>CEO Of This Company<br> Ms. Payal Malhotra</h3>
+			</div>
+			<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p> Online shopping is a very convenient shopping method. The convenience mainly includes the ease of locating a certain product, total time spent shopping and reduction of the overall shopping effort.</p>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<img src="./images/user3.jpg" width="200px" height="200px">
+				<h3>Invester Of This Company<br> Mrs. Rahul Shah</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="brands">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-5">
+				<img src="./images/1.jpg" width="200px" height="200px">
+			</div>
+			<div class="col-5">
+				<img src="./images/2.jpg" width="200px" height="200px">
+			</div>
+			<div class="col-5">
+				<img src="./images/3.png" width="200px" height="200px">
+			</div>
+			<div class="col-5">
+				<img src="./images/4.jpg" width="200px" height="200px">
+			</div>
+			<div class="col-5">
+				<img src="./images/5.jpg" width="200px" height="200px">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download app for android and ios mobile phone.</p>
+				<div class="app-logo">
+					<img src="./images/apps.jpg">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<p>Our purpose is to sustainably make the pleasure and benefits of
+				food items accessible to the many.</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>You Tube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="sopy">Copyright 2020 - Easy Tutorials</p>
+	</div>
+</div>
+
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+	MenuItems.style.maxHeight = "0px";
+	function menutoggle() {
+		if(MenuItems.style.maxHeight == "0px") {
+			MenuItems.style.maxHeight = "20px";
+		} else {
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+</body>
+
+</html>
+
